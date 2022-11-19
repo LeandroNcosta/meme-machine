@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Máquina de memes</title>
+  </head>
+  <body>
+    <div class="container">
+      <main class="app">
+        <header class="logo">
+          <img src="pictures/logo.png" alt="logo" />
+        </header>
+        <div class="app-image" id="downlabled">
+          <textarea
+            name="text-box"
+            class="text-box"
+            placeholder="Digite a legenda"
+            aria-multiline="true"
+          ></textarea>
+          <figure class="display-img"></figure>
+          <textarea
+            name="text-box"
+            class="text-box"
+            placeholder="Digite a legenda"
+            aria-multiline="true"
+          ></textarea>
+        </div>
+        <div class="app-photo-picker">
+          <select class="meme-list">
+            <option value="" checked>SELECIONE UMA BASE</option>
+          </select>
+          <div class="form-group">
+            <label for="img-input" class=".">SELECIONE UM ARQUIVO</label>
+            <div class="nomeArquivo"></div>
+            <input
+              type="file"
+              id="img-input"
+              accept="image/png, image/jpg, image/jpeg"
+            />
+          </div>
+        </div>
+        <div class="download">
+          <button class="btn-download" id="btn-download">DOWNLOAD</button>
+        </div>
+      </main>
+    </div>
+    <script src="js/html2Canvas.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

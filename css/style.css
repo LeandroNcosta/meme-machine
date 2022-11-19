@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Roboto" sans-serif;
+  background: url("../pictures/wallpaperbetter.jpg") repeat;
+  background-size: cover;
+  background-position: 70vmax center;
+  zoom: 60%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  color: #eee;
+
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.app-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.display-img {
+  width: 100%;
+  height: 500px;
+  background-image: url("../pictures/meme1.jfif");
+  background-position: center;
+  /* background-size: 100% auto; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app {
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid #470a5a66;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px -4px #000;
+  padding: 10px 50px 50px;
+  margin-top: 15px;
+  min-width: 800px;
+}
+
+.app-photo-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  height: 100px;
+  margin-top: 2rem;
+}
+
+textarea {
+  height: 80px;
+  width: 100%;
+  resize: vertical;
+  border: none;
+  padding: 10px;
+
+  overflow: hidden;
+  outline: none;
+
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-download {
+  width: 50%;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
+  color: #000;
+  background: #dbdb15cc;
+  margin-top: 3rem;
+  font-family: "Roboto";
+  transition: 200ms;
+}
+
+.btn-download:hover {
+  background: #9c9c12cc;
+}
+
+.text-box {
+  background: #000;
+  font-size: 40px;
+  color: #eee;
+  text-align: center;
+}
+
+.meme-list {
+  background: transparent;
+  width: 50%;
+  font-size: large;
+  font-family: sans-serif;
+  color: #eeeeeecc;
+  border-radius: 0.5rem;
+  padding: 10px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+option {
+  background: #000;
+  text-align: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 50%;
+}
+
+label {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  color: #000;
+  font-family: "Roboto";
+  background: #dbdb15cc;
+  font-weight: bold;
+  text-align: center;
+  transition: 200ms;
+  white-space: nowrap;
+}
+
+label:hover {
+  background: #9c9c12cc;
+}
